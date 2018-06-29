@@ -4,8 +4,7 @@ use agent::keys::Keys;
 use common::entry::Entry;
 use source_chain::memory::SourceChain;
 use state;
-use std::sync::mpsc::Sender;
-use std::sync::Arc;
+use std::sync::{mpsc::Sender, Arc};
 
 #[derive(Clone, Debug, PartialEq, Default)]
 pub struct AgentState {
